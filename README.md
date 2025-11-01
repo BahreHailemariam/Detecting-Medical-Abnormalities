@@ -68,3 +68,14 @@ data["abnormality_flag"] = model.fit_predict(data.select_dtypes(float))
 abnormal_patients = data[data["abnormality_flag"] == -1]
 print("Detected Abnormal Cases:", abnormal_patients.shape[0])
 ```
+
+## 📈 Visualization Ideas
+
+- **Heatmap:** Correlation between medical features and anomalies.
+
+- **Trend Chart:** Patient metrics over time highlighting outliers.
+
+- **Distribution Plot:** Normal vs Abnormal groups comparison.
+
+- **Dashboard:** Real-time abnormality alerts for clinicians.
+
