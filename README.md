@@ -34,3 +34,16 @@ E --> F[Visualization & Reporting]
 | **Model Selection**     | Use anomaly detection or supervised models (e.g., Isolation Forest, Autoencoder, Random Forest). |
 | **Evaluation**          | Use metrics such as AUC, Recall, Sensitivity, and Specificity.                                   |
 | **Alert Generation**    | Flag patients with abnormal patterns for further review.                                         |
+
+
+## 🧰 Tech Stack
+
+- **Language:** Python (NumPy, Pandas, Scikit-learn, TensorFlow/PyTorch)
+
+- **Visualization:** Matplotlib, Seaborn, Plotly
+
+- **Dashboard (optional):** Streamlit or Power BI
+
+- **Data Storage:** CSV / SQL / Medical database
+
+- **Deployment (optional):** Flask API or Streamlit App
