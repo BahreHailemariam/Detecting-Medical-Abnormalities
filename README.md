@@ -23,3 +23,14 @@ B --> C[Feature Engineering]
 C --> D[Model Training & Evaluation]
 D --> E[Abnormality Detection]
 E --> F[Visualization & Reporting]
+
+```
+## 🧠 Machine Learning Approach
+| Step                    | Description                                                                                      |
+| ----------------------- | ------------------------------------------------------------------------------------------------ |
+| **Data Input**          | Collect patient data (e.g., vital signs, lab tests, imaging metrics).                            |
+| **Data Cleaning**       | Handle missing values, normalize medical units, remove outliers.                                 |
+| **Feature Engineering** | Extract features like heart rate variability, blood parameter ratios, or image texture features. |
+| **Model Selection**     | Use anomaly detection or supervised models (e.g., Isolation Forest, Autoencoder, Random Forest). |
+| **Evaluation**          | Use metrics such as AUC, Recall, Sensitivity, and Specificity.                                   |
+| **Alert Generation**    | Flag patients with abnormal patterns for further review.                                         |
