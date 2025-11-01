@@ -116,3 +116,20 @@ Detecting_Medical_Abnormalities/
 | F1 Score  | 0.89  |
 | ROC-AUC   | 0.93  |
 
+## 🚀 Future Enhancements
+
+- Integrate deep learning models for image-based abnormality detection.
+
+- Deploy a real-time dashboard for clinical alerting.
+
+- Add explainable AI (XAI) for model interpretability.
+
+- Enable API connectivity with hospital data systems.
+
+## 📚 References
+
+- Scikit-learn: Anomaly Detection
+
+- TensorFlow Autoencoders for Anomaly Detection
+
+- WHO Health Data Resources
