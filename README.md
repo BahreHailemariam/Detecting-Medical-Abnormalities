@@ -79,3 +79,40 @@ print("Detected Abnormal Cases:", abnormal_patients.shape[0])
 
 - **Dashboard:** Real-time abnormality alerts for clinicians.
 
+
+## ⚙️ Folder Structure
+```kotlin
+Detecting_Medical_Abnormalities/
+│
+├── data/
+│   ├── medical_data.csv
+│
+├── scripts/
+│   ├── load_data.py
+│   ├── preprocess_data.py
+│   ├── feature_engineering.py
+│   ├── train_model.py
+│   ├── detect_anomalies.py
+│   ├── visualize_results.py
+│
+├── app/
+│   ├── streamlit_app.py
+│
+├── models/
+│   ├── trained_model.pkl
+│
+├── reports/
+│   ├── EDA_Report.ipynb
+│
+├── README.md
+└── requirements.txt
+```
+
+## 🧪 Sample Results
+| Metric    | Value |
+| --------- | ----- |
+| Precision | 0.91  |
+| Recall    | 0.87  |
+| F1 Score  | 0.89  |
+| ROC-AUC   | 0.93  |
+
