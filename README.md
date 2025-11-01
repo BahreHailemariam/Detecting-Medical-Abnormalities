@@ -47,3 +47,24 @@ E --> F[Visualization & Reporting]
 - **Data Storage:** CSV / SQL / Medical database
 
 - **Deployment (optional):** Flask API or Streamlit App
+
+## 📊 Example Use Case
+
+Detecting abnormal liver enzyme values from laboratory data to flag potential liver disease patients:
+# Example snippet
+
+``` python
+import pandas as pd
+from sklearn.ensemble import IsolationForest
+
+# Load example medical data
+data = pd.read_csv("medical_data.csv")
+
+# Train anomaly detection model
+model = IsolationForest(contamination=0.05, random_state=42)
+data["abnormality_flag"] = model.fit_predict(data.select_dtypes(float))
+
+# Identify abnormal cases
+abnormal_patients = data[data["abnormality_flag"] == -1]
+print("Detected Abnormal Cases:", abnormal_patients.shape[0])
+```
